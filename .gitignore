@@ -1,0 +1,57 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build directories
+bin/
+build/
+out/
+
+# Go module files
+vendor/
+
+# IDE or editor files
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+/tmp
+
+# Air configuration files (if you want to ignore them)
+.air.toml
+
+# Sensitive files
+.env
+.env.local
+.env.dev
+.env.test
+.env.prod
+
+
+# GORM migrations
+migrations/*.sql
+
+# Coverage files
+*.out
+*.cov
+
+# Other files
+*.test
+*.archive
+
+# Invoices Files
+/public/invoices/
+/public/reports/
+/public/files/
+
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
